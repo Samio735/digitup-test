@@ -129,7 +129,162 @@ export default function InfoTable() {
                     </div>
                   </div>
                 </TableCell>
-                <TableCell>{row.action}</TableCell>
+                <TableCell>
+                  <div className="flex gap-2 justify-center">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.25 5.5H18.3333"
+                        stroke="#4B465C"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M8.25 5.5H18.3333"
+                        stroke="white"
+                        strokeOpacity="0.2"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M8.25 11H18.3333"
+                        stroke="#4B465C"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M8.25 11H18.3333"
+                        stroke="white"
+                        strokeOpacity="0.2"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M8.25 16.5H18.3333"
+                        stroke="#4B465C"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M8.25 16.5H18.3333"
+                        stroke="white"
+                        strokeOpacity="0.2"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M4.58333 5.50001V5.50917"
+                        stroke="#4B465C"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M4.58333 5.50001V5.50917"
+                        stroke="white"
+                        strokeOpacity="0.2"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M4.58333 11V11.0092"
+                        stroke="#4B465C"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M4.58333 11V11.0092"
+                        stroke="white"
+                        strokeOpacity="0.2"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M4.58333 16.5V16.5092"
+                        stroke="#4B465C"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M4.58333 16.5V16.5092"
+                        stroke="white"
+                        strokeOpacity="0.2"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.25002 6.41666H5.50002C4.4875 6.41666 3.66669 7.23748 3.66669 8.25V16.5C3.66669 17.5125 4.4875 18.3333 5.50002 18.3333H13.75C14.7625 18.3333 15.5834 17.5125 15.5834 16.5V13.75"
+                        stroke="#4B465C"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M8.25002 6.41666H5.50002C4.4875 6.41666 3.66669 7.23748 3.66669 8.25V16.5C3.66669 17.5125 4.4875 18.3333 5.50002 18.3333H13.75C14.7625 18.3333 15.5834 17.5125 15.5834 16.5V13.75"
+                        stroke="white"
+                        strokeOpacity="0.2"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M8.25 13.75H11L18.7917 5.95832C19.5511 5.19893 19.5511 3.96771 18.7917 3.20832C18.0323 2.44893 16.8011 2.44893 16.0417 3.20832L8.25 11V13.75"
+                        stroke="#4B465C"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M8.25 13.75H11L18.7917 5.95832C19.5511 5.19893 19.5511 3.96771 18.7917 3.20832C18.0323 2.44893 16.8011 2.44893 16.0417 3.20832L8.25 11V13.75"
+                        stroke="white"
+                        strokeOpacity="0.2"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M14.6667 4.58334L17.4167 7.33334"
+                        stroke="#4B465C"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M14.6667 4.58334L17.4167 7.33334"
+                        stroke="white"
+                        strokeOpacity="0.2"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </div>
+                </TableCell>
               </TableRow>
             ))}
           </TableBody>
